@@ -1,8 +1,8 @@
 <?php
 	define("DB_SERVER", "localhost");
-	define("DB_USER", "ceo");
-	define("DB_PASS", "startup_ceo");
-	define("DB_NAME", "our_startup");
+	define("DB_USER", "ADD YOUR DB USER HERE!");
+	define("DB_PASS", "ADD YOUR PASS");
+	define("DB_NAME", "ADD YOUR NAME!");
 
   // 1. Create a database connection
   $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
